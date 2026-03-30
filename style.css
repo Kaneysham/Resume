@@ -133,3 +133,70 @@ footer {
     font-size: 0.75rem;
     color: #bbb;
 }
+/* Specific Styles for the Experience Page */
+.resume-card {
+    max-width: 600px; /* Slightly wider than the home card for more text */
+    text-align: left; /* Align text to the left for better readability */
+}
+
+.resume-card header {
+    text-align: center;
+}
+
+.resume-section h3 {
+    font-size: 0.9rem;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin: 30px 0 15px 0;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 5px;
+}
+
+.resume-item {
+    margin-bottom: 25px;
+}
+
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 4px;
+}
+
+.item-header .role {
+    font-weight: 600;
+    color: #222;
+    font-size: 1.1rem;
+}
+
+.item-header .date {
+    font-size: 0.85rem;
+    color: #888;
+}
+
+.resume-item .org {
+    color: #555;
+    font-style: italic;
+    margin-bottom: 8px;
+}
+
+.achievements {
+    padding-left: 18px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.achievements li {
+    margin-bottom: 5px;
+}
+
+/* Secondary Button Style */
+.btn.secondary {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.btn.secondary:hover {
+    background: #e8e8e8;
+}
