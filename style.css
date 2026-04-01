@@ -200,3 +200,71 @@ footer {
 .btn.secondary:hover {
     background: #e8e8e8;
 }
+/* Projects Tab Specifics */
+.projects-container {
+    max-width: 800px; /* Wider to accommodate the grid */
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.project-card {
+    background: #fafafa;
+    border-radius: 15px;
+    overflow: hidden; /* Clips the image to the border radius */
+    border: 1px solid #eee;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.project-image {
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd; /* Fallback color */
+}
+
+.project-info {
+    padding: 20px;
+}
+
+.project-info h3 {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    color: #222;
+}
+
+.project-info p {
+    font-size: 0.85rem;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.view-link {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #222;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border 0.3s ease;
+}
+
+.view-link:hover {
+    border-bottom: 2px solid #222;
+}
+
+/* Active Nav State */
+.btn.active {
+    background: #555;
+}
