@@ -268,3 +268,58 @@ footer {
 .btn.active {
     background: #555;
 }
+/* Contact List Styles */
+.contact-links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.contact-method {
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 15px 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #333;
+    transition: all 0.2s ease;
+    border: 1px solid #eee;
+    text-align: left;
+}
+
+.contact-method:hover {
+    background: #ffffff;
+    border-color: #222;
+    transform: translateX(5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.contact-icon {
+    font-size: 1.5rem;
+    margin-right: 20px;
+    background: #fff;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-text strong {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.contact-text span {
+    font-size: 0.85rem;
+    color: #888;
+}
